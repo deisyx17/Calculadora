@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/8f/1c/54/8f1c54c4b4caeb214ada0349c579aa92.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.moldura{
+    border: 5px black solid;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    background-color: darkslategrey;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+  
+input{
+    width: 210px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
